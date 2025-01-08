@@ -17,7 +17,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install --save-dev HTMLHint stylelint
+          npm install --save-dev htmlhint stylelint
+
 
       - name: Lint HTML Files
         run: npx htmlhint "**/*.html"
